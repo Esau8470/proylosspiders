@@ -3,45 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú de Navegación</title>
+    <title>Menú de Proyectos</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
             text-align: center;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
         }
-        nav {
+        .menu {
             background-color: #333;
-            padding: 10px;
+            padding: 15px;
         }
-        nav ul {
+        .menu ul {
             list-style: none;
             padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
         }
-        nav ul li {
-            display: inline;
+        .menu ul li {
             margin: 0 15px;
         }
-        nav ul li a {
-            color: white;
+        .menu ul li a {
             text-decoration: none;
+            color: white;
             font-size: 18px;
+            padding: 10px 15px;
+            transition: background 0.3s, color 0.3s;
         }
-        nav ul li a:hover {
-            text-decoration: underline;
+        .menu ul li a:hover {
+            background-color: #ff9800;
+            border-radius: 5px;
+            color: #fff;
         }
     </style>
 </head>
 <body>
-    <nav>
+
+    <nav class="menu">
         <ul>
-            <li><a href="oliver.html">Archivo 1</a></li>
-            <li><a href="archivo2.html">Archivo 2</a></li>
-            <li><a href="archivo3.html">Archivo 3</a></li>
-            <li><a href="archivo4.html">Archivo 4</a></li>
+            <li><a href="jefferson.html">Jefferson</a></li>
+            <li><a href="oliver.html">Oliver</a></li>
+            <li><a href="antony.html">Antony</a></li>
+            <li><a href="adriana.html">Adriana</a></li>
         </ul>
     </nav>
+
 </body>
 </html>
